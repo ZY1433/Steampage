@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>好友与聊天</title>
+		<link href="../css/zp_Friends.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nav_Top.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/nav_Buttom.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+	<body>
+		<div class="zy1-navHead">
+			<div class="zy1-navHead-top">
+				<ul>
+					<li>Steam</li>
+					<li>查看</li>
+					<li>好友</li>
+					<li>游戏</li>
+					<li>帮助</li>
+				</ul>
+				<ul class="zy1-navHead-right">
+					<li class="zy1-navHead-email">
+						<span>6</span>
+						<img src="../img/mail.png"/>
+					</li>
+					<li class="zy1-navHead-headicon">
+						<img src="../img/headIcon.jpg"/>
+						<span class="zy1_userName">兰亭222</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zy1-navHead-buttom">
+				<ul>
+					<li><a href="javascript:history.back();"><</a></li>
+					<li><a href="javascript:history.go(+1);">></a></li>
+					<!-- 箭头换成图标0 -->
+					<li><a href="../page/zy1_Home.html">商店</a></li>
+					<li><a href="../page/yhj_Library.html">库<a></a></li>
+					<li><a href="#">社区</a></li>
+					<li><a href="../page/yxy_Personal.html" class="zy1_userName">兰亭222</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="zy1-navButotm">
+			<a class="zy1-add" href="#">
+				<img src="../img/add.png"/>
+				<span>添加游戏</span>
+			</a>
+			<a class="zy1-download" href="#">
+				<span>下载</span>
+				<span>管理</span>
+			</a>
+			<a class="zy1-friends" href="../page/zp_Friends.html">
+				<span>好友与聊天</span>
+				<img src="../img/chat_add.png"/>
+			</a>
+		</div>
+		
+		<div id="users">
+			<div class="tip">
+				<span class="zy1_userName">我</span>
+			</div>
+			<div class="item">
+				<a href="#"> <img class="face" src="../img/headIcon.jpg"></a>
+				<div class="des">
+					<div class="nickName">
+						<span>
+							<a href="#">
+								<span class="zaixian">在线</span>
+							</a>
+						</span>
+					</div>
+					<div class="signature"><span></span></div>
+				</div>
+			</div>
+			<div>
+				<ul class="zp">
+					<div class="tip">
+						<span>ZPP</span>
+					</div>
+					<li>
+						<div class="item">
+							<a href="#"><img class="face" src="../img/1.jpg"></a>
+							<div class="des">
+								<div class="nickName">
+									<span>
+										<a href="#">
+											<span class="lixain">离线</span>
+											<button class="zp_button">离线请留言</button>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="tip">
+							<span>ZY</span>
+						</div>
+						<div class="item">
+							<a href="#"><img class="face" src="../img/zy.jpg"></a>
+							<div class="des">
+								<div class="nickName">
+									<span>
+										<a href="#">
+											<span class="lixain">离线</span>
+											<button class="zp_button">离线请留言</button>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="tip">
+							<span>YHJ</span>
+						</div>
+						<div class="item">
+							<a href="#"><img class="face" src="../img/yhj.jpg"></a>
+							<div class="des">
+								<div class="nickName">
+									<span>
+										<a href="#">
+											<span class="lixain">离线</ span>
+											<button class="zp_button">离线请留言</button>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="tip">
+							<span>YXY</span>
+						</div>
+						<div class="item">
+							<a href="#"><img class="face" src="../img/yxy1_12.png"></a>
+							<div class="des">
+								<div class="nickName">
+									<span>
+										<a href="#">
+											<span class="lixain">离线</ span>
+											<button class="zp_button">离线请留言</button>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- <div>
+				<span class="wenben"><ul>
+					好友聊天框
+					<span class="wenben2">
+					<li>
+						张三退出了游戏
+					</li>
+					<li>
+						李四加入了游戏
+					</li></span>
+				</ul></span>
+			</div> -->
+            <div class="talk_con">
+                <div class="talk_show" id="words">
+                    <div class="atalk"><span id="asay">你们已经成好友了，快来聊天吧！</span></div>
+                </div>
+                <div class="talk_input">
+                    <input type="text" class="talk_word" id="talkwords" placeholder="来聊天吧~">
+                    <input type="button" value="发送" class="talk_sub" id="talksub">
+                    <input type="button" value="关闭" class="talk_sub" id="closesub">
+                </div>
+		</div>
+		<script src="../js/nav.js"></script>
+		<script src="../js/zp_Friends.js"></script>
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>个人中心</title>
+		<link href="../css/yxy_Personal.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nav_Top.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nav_Buttom.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="zy1-navHead">
+			<div class="zy1-navHead-top">
+				<ul>
+					<li>Steam</li>
+					<li>查看</li>
+					<li>好友</li>
+					<li>游戏</li>
+					<li>帮助</li>
+				</ul>
+				<ul class="zy1-navHead-right">
+					<li class="zy1-navHead-email">
+						<span>6</span>
+						<img src="../img/mail.png" />
+					</li>
+					<li class="zy1-navHead-headicon">
+						<img src="../img/headIcon.jpg" />
+						<span class="zy1_userName">兰亭222</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zy1-navHead-buttom">
+				<ul>
+					<li>
+						<a href="javascript:history.back();"><</a>
+					</li>
+					<li><a href="javascript:history.go(+1);">></a></li>
+					<!-- 箭头换成图标0 -->
+					<li><a href="../page/zy1_Home.html">商店</a></li>
+					<li><a href="../page/yhj_Library.html">库<a></a></li>
+					<li><a href="#">社区</a></li>
+					<li><a href="../page/yxy_Personal.html" class="zy1_userName">兰亭222</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="zy1-navButotm">
+			<a class="zy1-add" href="#">
+				<img src="../img/add.png" />
+				<span>添加游戏</span>
+			</a>
+			<a class="zy1-download" href="#">
+				<span>下载</span>
+				<span>管理</span>
+			</a>
+			<a class="zy1-friends" href="../page/zp_Friends.html">
+				<span>好友与聊天</span>
+				<img src="../img/chat_add.png" />
+			</a>
+		</div>
+		<main style="position: relative;top: 60px;">
+			<div class="left">
+				<div class="box1">
+					<h1>好友动态</h1>
+					<span>好友动态设置&nbsp;|&nbsp;我的活动</span>
+				</div>
+				<div class="box2">
+					<div class="box3"><img src="../img/headIcon.jpg" alt="头像" width="48">
+					<input type="text"
+                        placeholder="向您的好友发布一条动态" id="yxyIN"/>
+						</div>
+                <div class="box4"><button>添加游戏标签<span style="float: right;">▼</span> </button><span
+                        style="margin-right: 10px;font-size: 20px;">😊</span><button
+                        style="margin-right: 15px;color: white;background-color: rgb(97,107,115); font-size: 13px;padding: 5px 10px;border: none;border-radius: 5px;" id="sub">发布</button>
+                </div>
+            </div>
+			<div id="yxyout">
+				<div class="box5"><img src="../img/yxy1_12.png" alt="">
+				    <p>YXY达成了《Counter-Strike:Global Offensive》的成就：</p>
+				</div>
+			</div>
+            
+        </div>
+        <div class="right">
+            <div class="top">
+                <input type="text" placeholder="搜索好友"><img src="../img/search.png" alt="">
+            </div>
+            <div class="box6">
+                <img src="../img/给好友查看_active.png" alt="">
+                <p>查看好友列表</p>
+                <p style="color: rgb(108,142,177);">0名好友在线(共2名)</p>
+            </div>
+            <div class="box7">
+                <p>添加好友</p>
+                <input type="text" placeholder="搜索好友或玩家">
+                <img src="../img/search.png" alt="" style="height: 18px;width: 18px;">
+            </div>
+            <div class="box8">
+                <div class="box9">
+                    <img src="../img/headIcon.jpg" alt="" width="30">
+                    <span class="zy1_userName">410271149</span>
+                </div>
+                <div class="box10">
+                    <ul>
+                        <li><img src="../img/search.png" alt="" style="width: 27px;"><span>查看我的个人资料</span></li>
+                        <li style="border-bottom: 3px solid black;"><img src="../img/编辑.png" alt=""><span>编辑我的个人资料</span></li>
+                        <li><img src="../img/游戏.png" alt=""><span>游戏</span></li>
+                        <li><img src="../img/给好友查看_active.png" alt=""><span>好友</span></li>
+                        <li><img src="../img/好友.png" alt=""><span>组</span></li>
+                        <li><img src="../img/库存.png" alt=""><span>库存</span></li>
+                        <li><img src="../img/交易.png" alt=""><span>交易报价</span></li>
+                        <li><img src="../img/相机,截图,截屏,拍照.png" alt=""><span>截图</span></li>
+                        <li><img src="../img/视频.png" alt=""><span>视频</span></li>
+                        <li><img src="../img/政策指南针.png" alt=""><span>指南</span></li>
+                        <li><img src="../img/扳手.png" alt=""><span>我的创意工坊</span></li>
+                        <li><img src="../img/留言.png" alt=""><span>我的留言记录历史</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="box11">
+                <p>即将推出的活动</p>
+                <p>在未来30天内您没有任何活动</p>
+                <p>查看所有活动</p>
+            </div>
+        </div>
+    </main>
+	<script src="../js/nav.js"></script>
+		<script src="../js/yxy_Personal.js"></script>
+	</body>
+</html>

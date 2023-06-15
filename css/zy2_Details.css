@@ -1,0 +1,312 @@
+* {
+	magin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.d0 {
+	position: relative;
+	top: 70px;
+	margin-bottom: 130px;
+	background: rgb(32, 54, 90);
+	width: calc(100vw - 17px);
+	height: 140vh;
+}
+
+.d1 {
+	width: 1000px;
+	margin: auto;
+}
+
+.d2 {
+
+	width: 1200px;
+	width: 70vw;
+	margin: auto;
+	background: skyblue;
+}
+
+.ul1 li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 3em;
+}
+
+.input1 {
+	float: right;
+	margin-top: -34px;
+	margin-left: 2px;
+	background-color: cadetblue;
+}
+
+.banner {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	/* border: 1px solid red; */
+	margin: 0px auto;
+	margin-left: 0px;
+	background: cadetblue;
+	display: inline-block;
+	margin-bottom: -16px;
+	width:60%;
+}
+
+.banner .wrap {
+	width: 100%;
+}
+
+.banner .wrap .item {
+	width: 100%;
+}
+
+.item img {
+	width: 500px;
+	height: 300px;
+	vertical-align: top;
+	position: absolute;
+	width: 100%;
+}
+
+.div1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	cursor: pointer;
+	width: 41px;
+	height: 69px;
+	font-size: 30px;
+	line-height: 70px;
+	text-align: center;
+	color: #D6D8D4;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.div2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	cursor: pointer;
+	width: 41px;
+	height: 69px;
+	font-size: 30px;
+	line-height: 70px;
+	text-align: center;
+	color: #D6D8D4;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pagenation {
+	position: absolute;
+	/* border: 1px solid red; */
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	bottom: 40px;
+}
+
+.pagenation>div {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pagenation>div:last-child {
+	margin-right: 0;
+}
+
+.a1 {
+	text-decoration: none;
+}
+
+.yfay {
+	display: inline-block;
+	margin-left: 510px;
+	margin-top: -400px;
+  
+}
+
+.img {
+	width: 360px;
+	height: 82px;
+	margin-bottom: -8px;
+    margin-left:110px;
+	
+}
+
+.p1 {
+	margin-bottom: 100px;
+	color: white;
+	
+}
+
+.b1 {
+	border: 1px solid white;
+	background-color: rgb(47, 79, 110);
+	border-color: rgb(47, 79, 110);
+	border-width: 1px 9px;
+	
+}
+.b1 a{
+	color:white;
+}
+.b1 a:hover{
+	color:#00DDDD;
+}
+a {
+	text-decoration: none;
+	color: rgb(58, 152, 214);
+}
+
+.sqzx {
+	border: 1px solid white;
+	background-color: rgb(47, 79, 110);
+	border-color: rgb(47, 79, 110);
+	border-width: 1px 9px;
+	font-size: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+.span1 {
+	color: gainsboro;
+	font-size: 5px;
+}
+.div3{
+	margin-top: 30px;
+	background-color: rgba(22, 35, 48, 0.2);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.div3 span{
+	margin: 0 5px ;
+}
+.div3 a{
+	color:white;
+}
+.div3 a:hover{
+	color:#00DDDD;
+	
+}
+.div3 span:nth-of-type(5){
+	margin-left: auto;
+}
+.d3{
+	width: 360px;
+	margin-left:110px;
+	margin-bottom: -10px;
+	}
+	
+.goumai{
+	width: 700px;
+	height:100px;
+	background: rgb(64, 80, 95);
+	color:white;
+	
+}
+.mai{
+	display: inline-block;
+	height: 10px;
+	margin-top: 10px;
+	text-indent: 1em;
+	font-size:23px;
+}
+.mai1{
+	color: #FFFFFF;
+	display: inline-block;
+	float:right;
+	font-size: 10px;
+}
+.gouwuche{
+	width:200px;
+	height: 40px;
+	background: black;
+	color: #FFFFFF;
+	line-height: 40px;
+	text-indent: 1em;
+	margin-top: -25px;
+	float:right;
+	margin-right: 350px;
+}
+.gouwuche1{
+	width:130px;
+	height: 30px;
+	background: rgb(118, 175, 33);
+	color: #FFFFFF;
+	line-height: 30px;
+	text-indent: 1em;
+	display: inline-block;
+}
+.gonggao{
+	width:700px;
+	
+	
+}
+.ckqb{
+	width:100px;
+	 hight:20px;
+	border:solid 1px white;
+	color:white;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	float: right;
+}
+.verdun{
+	display: inline-block;
+}
+.xinwen{
+	color: rgb(108, 120, 132);
+	width: 290px;
+	height: 20px;
+	display: inline-block;
+	position:absolute;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.GM{
+	display: inline-block;
+	
+}
+.PJ{
+	display: inline-block;
+	width: 290px;
+	height: 200px;
+	position: absolute;
+	margin-top: -163px;
+	
+}
+.pingce{
+	width:280px;
+	height:150px;
+	background: rgb(21, 30, 45);
+	color:white;
+	line-height: 30px;
+	text-indent: 1em;
+	float: right;
+	padding-left: 5px;
+}
+.moshi{
+	width:280px;
+	height:240px;
+	background: rgb(21, 30, 45);
+	color:white;
+	line-height: 30px;
+	margin-top: 20px;
+	float: right;
+	padding-left: 5px;
+	
+}
+/* .tubiao{
+	display: inline-block;
+}
+.moshi{
+	display: inline-block;
+	
+} */

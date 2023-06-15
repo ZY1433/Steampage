@@ -1,0 +1,41 @@
+.zy1-navButotm{
+	width: calc(100vw - 17px);
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	color: rgba(255,255,255,0.6);
+	font-size: 12px;
+	background-color: rgb(41, 45, 50);
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+}
+.zy1-navButotm a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+.zy1-add img{
+	width: 35px;
+	vertical-align: middle;
+}
+.zy1-download{
+	display: flex;
+	flex-direction: column;
+}
+.zy1-friends img{
+	width: 25px;
+	vertical-align: middle;
+}
+
+.zy1-add , .zy1-friends ,.zy1-download{
+	opacity: 0.8;
+	cursor: pointer;
+	user-select: none;
+}
+.zy1-add:hover , .zy1-friends:hover ,.zy1-download:hover{
+	transition: 0.2s;
+	opacity: 1;
+}

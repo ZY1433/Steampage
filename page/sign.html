@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>注册页面</title>
+		<link href="../css/sign.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		
+		<div class="login">
+			<div class="login-top">
+				<img  src="../img/steam.png"/>
+				<h1>STEAM</h1>
+			</div>
+			<form class="login-form">
+				<label for="user">请输入用户名</label>
+				<div>
+					<input id="user" type="text" class="input" required/>
+					<span class="check"></span>
+				</div>
+				<label for="email">请输入邮箱</label>
+				<div>
+					<input id="email" type="email" class="input" required/>
+					<span class="check"></span>
+				</div>
+				<label for="pass1">请输入密码</label>
+				<div>
+					<input id="pass1" type="password" class="input" required/>
+					<span class="check"></span>
+				</div>
+				<label for="pass2">请确认密码</label>
+				<div>
+					<input id="pass2" type="password" class="input" required/>
+					<span class="check"></span>
+				</div>
+				<input type="button" value="注册" class="submit"/>
+			</form>
+		</div>
+		<script src="../js/jquery.js"></script>
+		<script src="../js/sign.js"></script>
+	</body>
+</html>

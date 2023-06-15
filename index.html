@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>登录页面</title>
+		<link href="css/logIn.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		
+		<div class="login">
+			<div class="login-top">
+				<img  src="./img/steam.png"/>
+				<h1>STEAM</h1>
+			</div>
+			<div class="login-buttom">
+				<form class="login-left">
+					<label for="user">使用用户名登录</label>
+					<input id="user" type="text" class="input"/>
+					<label for="pass">密码</label>
+					<input id="pass" type="password" class="input"/>
+					<input type="button" value="登录" class="submit"/>
+					
+				</form>
+				<div class="login-right">
+					<label>或者使用二维码登录</label>
+					<div class="login-img">
+						<img src="./img/登录二维码.png"/>
+					</div>
+				</div>
+			</div>
+			<p class="sign">还没有账号？<a href="./page/sign.html">点击免费注册</a></p>
+		</div>
+		<script src="js/login.js"></script>
+	</body>
+</html>

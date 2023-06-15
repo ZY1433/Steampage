@@ -1,0 +1,208 @@
+body {
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+#users {
+	height: 100vh;
+	width: calc(100vw - 17px);
+	background: rgb(27, 39, 56);
+	font-size: 14px;
+	position: relative;
+	top: 70px;
+	margin-bottom: 130px;
+}
+
+.tip {
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: bisque;
+	padding-left: 10px;
+}
+
+.none {
+	display: none;
+}
+
+.item {
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	/* border-bottom: 1px solid #eee; */
+	background-color: rgb(27, 39, 56);
+	display: flex;
+}
+
+.face {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	margin-top: 8px;
+	object-fit: cover;
+}
+
+.des {
+	height: 60px;
+	display: inline-block;
+	margin-left: 65px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	flex: 1;
+}
+
+.nickName {
+	/*height: 30px;*/
+	margin-top: 10px;
+}
+
+.nickName span {
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.signature {
+	/*height: 30px;*/
+	margin-top: -5px;
+}
+
+.signature span {
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: gray;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.sel {
+	width: 30px;
+	height: 60px;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+}
+
+.sel img {
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+}
+.wenben{
+	height: 25px;
+	margin-top: 10px;
+	color:white;
+	font-size:25px;
+}
+.wenben2{
+	height: 25px;
+	margin-top: 10px;
+	color:white;
+	font-size:18px;
+}
+button {
+  background-color: #3498db;
+  color: snow;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  cursor: pointer;
+}
+.zaixian{
+	color: cyan;
+}
+.lixain{
+	color: darkseagreen;
+}
+.zp li{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.talk_con {
+	width: 600px;
+	height: 500px;
+	border: 1px solid #666;
+	margin: 50px auto 0;
+	background: rgb(31, 33, 38);
+	position: fixed;
+	top: 10%;
+	left: 35%;
+	display: none;
+}
+.talk_show {
+	width: 580px;
+	height: 420px;
+	border: 1px solid #666;
+	background: rgb(31, 33, 38);
+	margin: 10px auto 0;
+	overflow: auto;
+}
+.talk_input {
+	width: 580px;
+	margin: 10px auto 0;
+}
+.whotalk {
+	width: 80px;
+	height: 30px;
+	float: left;
+	outline: none;
+}
+.talk_word {
+	width: 420px;
+	height: 26px;
+	padding: 0px;
+	float: left;
+	margin-left: 10px;
+	outline: none;
+	text-indent: 10px;
+	background: gainsboro
+	color: white;
+}
+.talk_sub {
+	width: 56px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+}
+.atalk {
+	margin: 10px;
+}
+.atalk span {
+	display: inline-block;
+	background: #0181cc;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px 10px;
+}
+.btalk {
+	margin: 10px;
+	text-align: right;
+}
+.btalk span {
+	display: inline-block;
+	background: #ef8201;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px 10px;
+}

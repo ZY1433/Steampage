@@ -1,0 +1,91 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+/* 整个导航栏 */
+.zy1-navHead {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	width: calc(100vw - 17px);
+	background: linear-gradient(rgb(26, 38, 58),rgb(30, 33, 37));
+	z-index: 2;
+}
+/* 导航栏上半部分 */
+.zy1-navHead-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.zy1-navHead-top ul:nth-of-type(1),.zy1-navHead-right,.zy1-navHead-buttom ul{	
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.zy1-navHead-top ul:nth-of-type(1) li{	
+	font-size: 12px;
+	color: rgb(77, 84, 95);
+	margin: 10px;
+	user-select: none;
+	cursor: pointer;
+}
+/* 导航栏右上角 */
+.zy1-navHead-right{
+	font-size: 12px;
+	color: rgb(81, 158, 189);
+}
+.zy1-navHead-email{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: auto 10px;
+	height: 28px;
+	width: 40px;
+	background-color: rgb(92, 125, 15);
+}
+.zy1-navHead-email span{
+	color: white;
+	font-weight: bold;
+}
+.zy1-navHead-email img{
+	margin-left: 5px;
+	height: 16px;
+	vertical-align: middle;
+}
+.zy1-navHead-headicon{
+	display: inline-block;
+	height: 28px;
+	width: 100px;
+	margin: auto 30px auto 0;
+	background-color: rgba(44, 86, 128, 0.6);
+}
+.zy1-navHead-headicon img{
+	height: 28px;
+	vertical-align: middle;
+}
+.zy1-navHead-headicon span{
+	margin: 10px;
+}
+
+
+
+/* 导航栏下半部分 */
+.zy1-navHead-buttom ul li{
+	font-size: 18px;
+	color: rgb(166, 171, 182);
+	margin: 0 10px;	
+	user-select: none;
+	cursor: pointer;
+}
+.zy1-navHead-buttom ul li a{
+	font-size: 18px;
+	color: rgb(166, 171, 182);
+}
+.zy1-navHead-buttom ul li a:hover{
+	color: rgb(250, 251, 251);
+	transition: 0.2s;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link href="../css/yhj_Library.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nav_Top.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nav_Buttom.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="zy1-navHead">
+			<div class="zy1-navHead-top">
+				<ul>
+					<li>Steam</li>
+					<li>查看</li>
+					<li>好友</li>
+					<li>游戏</li>
+					<li>帮助</li>
+				</ul>
+				<ul class="zy1-navHead-right">
+					<li class="zy1-navHead-email">
+						<span>6</span>
+						<img src="../img/mail.png" />
+					</li>
+					<li class="zy1-navHead-headicon">
+						<img src="../img/headIcon.jpg" />
+						<span class="zy1_userName">兰亭222</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zy1-navHead-buttom">
+				<ul>
+					<li><a href="javascript:history.back();">
+							<</a> </li> <li><a href="javascript:history.go(+1);">></a></li>
+					<!-- 箭头换成图标0 -->
+					<li><a href="../page/zy1_Home.html">商店</a></li>
+					<li><a href="../page/yhj_Library.html">库<a></a></li>
+					<li><a href="#">社区</a></li>
+					<li><a href="../page/yxy_Personal.html" class="zy1_userName">兰亭222</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="zy1-navButotm">
+			<a class="zy1-add" href="#">
+				<img src="../img/add.png" />
+				<span>添加游戏</span>
+			</a>
+			<a class="zy1-download" href="#">
+				<span>下载</span>
+				<span>管理</span>
+			</a>
+			<a class="zy1-friends" href="../page/zp_Friends.html">
+				<span>好友与聊天</span>
+				<img src="../img/chat_add.png" />
+			</a>
+		</div>
+
+
+		<div id="div0">
+			
+			<div id="div1">
+				<div class="backcolor" id="zhuye">&nbsp主页
+					<img src="../img/yhj.分类.png" class="fenlei" />
+				</div>
+				<div id="youxi">
+					<select type="text" class="backcolor" id="youxi">
+						<option id="op" selected="selected">游戏</option>
+						<option id="op">工具</option>
+						<option id="op">按收藏分组</option>
+						<option id="op">按库分组</option>
+					</select>
+					<img src="../img/yhj.时间%20钟表.png" class="zhongbiao" />
+					<img src="../img/yhj.启动.png" class="qidong" />
+				</div>
+				<img src="../img/search.png" class="shousuo" />
+				<img src="../img/筛选%20(1).png" class="saixuan" />
+				<input type="text" class="backcolor" id="shousuo" placeholder="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp按名称搜索" /></p>
+				<a href="#"> 全部(5)<button class="zy1-button-add" onclick="openShutManager(this,'show1',false,'内容')">+</button></a>
+				<div id="show1">
+					<a href="#" class="imgs" onclick=th()><img src="../img/th.jpg" />HellTaker</a>
+					<a href="#" class="imgs" onclick=HK()><img src="../img/HK.jpg">Hollow Knight</a>
+					<a href="#" class="imgs" onclick=AA()><img src="../img/AA.jpg" />Another Adventure</a>
+					<a href="#" class="imgs" onclick=ey()><img src="../img/ey.ico" />Goose Goose Duck</a>
+					<a href="#" class="imgs" onclick=cs()><img src="../img/cs.ico">CSGO</a>
+				</div>
+			</div>
+			<div id="div2">
+				<div id="datetime" class="time"></div>
+				<div id="div4" style="font-size: 20px;">
+					<input type="button" class="butt" value="开始游戏" />
+					<ul>
+						<li>上次运行时间：5月4号</li>
+						<li>游戏时间：<span id="gametime"></span>分钟</li>
+						<li>成就：1/10</li>
+					</ul>
+					<div id="div3">
+						<input class="an" type="button" value="活动" />
+						<input class="an" type="button" value="您的活动" />
+						<input class="an" type="button" value="社区" />
+						<input class="an" type="button" value="游戏信息" />
+					</div>
+					<div id="div4-left">
+						<div>
+							<p style="color: #808080;" class="div4-left-p">动态：<br />
+								<textarea name="comments" id="comments" placeholder="将此游戏介绍给您的好友" cols="60" rows="2" style="background-color: rgb(39, 44, 49);color: #F0F8FF;"></textarea>	
+								<button  class="submit">发布动态</button></p>
+						</div>
+						<table class="adddonttai">
+							<tbody>
+							</tbody>
+						</table>
+						<div id="dongtai">
+							<p id="ptime" >2023年5月4日</p>
+							<div id="news">
+								<div class="dongtai_left">
+									<img src="../img/yhj.header_keyart.png" class="dongtai_left_img"/>
+								</div>
+								<div class="dongtai_right">
+									<h6 class="dongtai_head">
+										新闻
+									</h6>
+									<span class="dongtai_content">
+										欢迎来到CSGO
+									</span>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div id="div4-right" >
+						<p style="color: rgb(137, 139, 142);" margin-right:160px">玩过的好友：</p>
+						<div style="background-color: rgb(60, 60, 66);margin-top: 10px;	padding-top: 5px; padding-left: 5px;color:white;height:100px;" >
+							4位好友之前玩过<br/>
+							<img src="../img/1.jpg"  class="zpimg"/>
+							<img src="../img/zy.jpg"  class="zpimg"/>
+							<img src="../img/yhj.jpg"  class="zpimg"/>
+							<img src="../img/yxy1_12.png"  class="zpimg"/>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<script src="../js/nav.js"></script>
+		<script src="../js/yhj_Library.js"></script>
+	</body>
+</html>
